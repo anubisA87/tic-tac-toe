@@ -8,21 +8,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (min-width: 480px){
-  body {
 
+
+@media screen and (min-width: 300px) {
+  body {
+    background-color: #444444;
   }
+
+  .board {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75%;
+    }
 }
 
 @media screen and (min-width: 767px){
   body {
-
+    background-color: #123e5d;
   }
 }
 
 @media screen and (min-width: 950px){
   body {
-
+    background-color: #0d731c;
   }
 }
 
