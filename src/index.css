@@ -12,7 +12,7 @@ body {
 
 @media screen and (min-width: 300px) {
   body {
-    background-color: #444444;
+    background-color: rgb(160, 157, 157);
   }
 
   .board {
@@ -21,8 +21,20 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 75%;
+    margin-top: 45%;
     }
+
+  header {
+    font-family: 'Koulen', cursive;
+    font-size: 1.5cm;
+    margin-top: 20px;
+  }
+
+  .subtitle {
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+    margin-top: 0.1px;
+  }
 }
 
 @media screen and (min-width: 767px){
