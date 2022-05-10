@@ -15,6 +15,11 @@ body {
     background-color: rgb(160, 157, 157);
   }
 
+  .boardParent {
+    z-index: 2;
+    position: absolute;
+  }
+
   .board {
     width: 60%;
     height: 60%;
@@ -22,7 +27,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40%;
-    }
+  }
 
   header {
     font-family: 'Koulen', cursive;
@@ -34,6 +39,48 @@ body {
     font-family: 'Koulen', cursive;
     font-size: 30px;
     margin-top: 0.1px;
+  }
+
+  button {
+    width: 67px;
+    height: 67px;
+
+    background-color: transparent;
+    border: 0px;
+  }
+
+  #btt1{
+    margin-left: 2px;
+    margin-top: 165px;
+    z-index: 1;
+  }
+
+  #btt2 {
+    margin-left: 8px;
+    z-index: 1;
+  }
+
+  #btt3 {
+    margin-left: 3px;
+    z-index: 1;
+  }
+
+  #btt4 {
+    z-index: 3;
+    margin-right: 10px;
+  }
+
+  #btt5 {
+    margin-right: 10px;
+  }
+
+  #btt7 {
+    margin-right: 10px;
+    margin-bottom: 100px;
+  }
+
+  #btt8 {
+    margin-right: 10px;
   }
 }
 

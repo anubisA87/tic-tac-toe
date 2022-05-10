@@ -1,5 +1,6 @@
 import './App.css';
 import Board from './components/board';
+import Boxes from './components/boxes'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <p className='subtitle'>GAME</p>
       </div>
       <Board></Board>
+      <Boxes></Boxes>
     </div>
   );
 }
